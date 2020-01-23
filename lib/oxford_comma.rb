@@ -1,6 +1,6 @@
 def oxford_comma(array)
-  string = array.split ""
-  print string
+  str = array.join(' ')
+  p str
 end
 
 oxford_comma(["kiwi"])
