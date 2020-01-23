@@ -1,6 +1,12 @@
 def oxford_comma(array)
-  str = array.join(" and ")
+  if array.count == 3
+  array[-1] = "and #{array[-1]}"
+  str = array.join(", ")
   p str
+  else
+    str = array.join(" and ")
+    p str
+  end
 end
 
 oxford_comma(["kiwi"])
