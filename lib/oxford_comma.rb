@@ -5,3 +5,4 @@ end
 
 oxford_comma(["kiwi"])
 oxford_comma(["kiwi", "durian"])
+oxford_comma({"kiwi", "durian", "starfruit"})
