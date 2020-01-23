@@ -1,7 +1,7 @@
 def oxford_comma(array)
-  str = array.join(' ')
+  str = array.join(' and ')
   p str
 end
 
 oxford_comma(["kiwi"])
-oxford_comma([])
+oxford_comma(["kiwi", "durian"])
